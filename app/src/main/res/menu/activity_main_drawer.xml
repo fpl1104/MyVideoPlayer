@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+//侧滑界面
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_localfile"
+            android:icon="@android:drawable/stat_notify_sdcard"
+            android:title="本地视频" />
+        <item
+            android:id="@+id/nav_selectfile"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="查看文件" />
+        <item
+            android:id="@+id/nav_internet"
+            android:icon="@android:drawable/ic_menu_search"
+            android:title="网络搜索" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@android:drawable/ic_menu_manage"
+            android:title="收藏" />
+    </group>
+
+    <item android:title="设置">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@android:drawable/ic_menu_slideshow"
+                android:title="主题" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@android:drawable/ic_menu_myplaces"
+                android:title="备用" />
+        </menu>
+    </item>
+
+</menu>
